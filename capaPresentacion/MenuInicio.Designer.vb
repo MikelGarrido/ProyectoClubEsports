@@ -112,7 +112,7 @@ Partial Class MenuInicio
         Me.btnCompetidas.Name = "btnCompetidas"
         Me.btnCompetidas.Size = New System.Drawing.Size(170, 66)
         Me.btnCompetidas.TabIndex = 8
-        Me.btnCompetidas.Text = "COMPETIDAS"
+        Me.btnCompetidas.Text = "COMPETIDORES"
         Me.btnCompetidas.UseVisualStyleBackColor = True
         '
         'btnCompeticiones

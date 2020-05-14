@@ -21,6 +21,10 @@ Public Class NuevaCompetir
 
     Private Sub btnCrear_Click(sender As Object, e As EventArgs) Handles btnCrear.Click
         registroCompetir()
+        Me.Close()
     End Sub
 
+    Private Sub btnLimpiar_Click(sender As Object, e As EventArgs) Handles btnLimpiar.Click
+        Me.Close()
+    End Sub
 End Class

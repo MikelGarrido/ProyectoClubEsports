@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class NuevaCompetir
+Partial Class Entrenamiento
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -24,89 +24,79 @@ Partial Class NuevaCompetir
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.txtCodJugador = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.txtCompeticion = New System.Windows.Forms.TextBox()
+        Me.txtCodigoJugador = New System.Windows.Forms.TextBox()
+        Me.txtCodigoEntrenador = New System.Windows.Forms.TextBox()
         Me.btnCrear = New System.Windows.Forms.Button()
-        Me.btnLimpiar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Trebuchet MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(233, 31)
+        Me.Label1.Location = New System.Drawing.Point(243, 29)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(260, 36)
-        Me.Label1.TabIndex = 7
-        Me.Label1.Text = "NUEVA COMPETIDA"
+        Me.Label1.Size = New System.Drawing.Size(313, 36)
+        Me.Label1.TabIndex = 6
+        Me.Label1.Text = "ASIGNAR ENTRENADOR"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(57, 118)
+        Me.Label2.Location = New System.Drawing.Point(73, 160)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(256, 25)
-        Me.Label2.TabIndex = 8
-        Me.Label2.Text = "CÓDIGO DEL JUGADOR"
-        '
-        'txtCodJugador
-        '
-        Me.txtCodJugador.Location = New System.Drawing.Point(436, 122)
-        Me.txtCodJugador.Name = "txtCodJugador"
-        Me.txtCodJugador.Size = New System.Drawing.Size(100, 22)
-        Me.txtCodJugador.TabIndex = 29
+        Me.Label2.Size = New System.Drawing.Size(244, 25)
+        Me.Label2.TabIndex = 7
+        Me.Label2.Text = "CÓDIGO DE JUGADOR"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(57, 238)
+        Me.Label3.Location = New System.Drawing.Point(73, 243)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(326, 25)
-        Me.Label3.TabIndex = 30
-        Me.Label3.Text = "CÓDIGO DE LA COMPETICIÓN"
+        Me.Label3.Size = New System.Drawing.Size(287, 25)
+        Me.Label3.TabIndex = 8
+        Me.Label3.Text = "CÓDIGO DE ENTRENADOR"
         '
-        'txtCompeticion
+        'txtCodigoJugador
         '
-        Me.txtCompeticion.Location = New System.Drawing.Point(436, 242)
-        Me.txtCompeticion.Name = "txtCompeticion"
-        Me.txtCompeticion.Size = New System.Drawing.Size(100, 22)
-        Me.txtCompeticion.TabIndex = 31
+        Me.txtCodigoJugador.Enabled = False
+        Me.txtCodigoJugador.Location = New System.Drawing.Point(470, 164)
+        Me.txtCodigoJugador.Name = "txtCodigoJugador"
+        Me.txtCodigoJugador.Size = New System.Drawing.Size(100, 22)
+        Me.txtCodigoJugador.TabIndex = 9
+        '
+        'txtCodigoEntrenador
+        '
+        Me.txtCodigoEntrenador.Location = New System.Drawing.Point(470, 247)
+        Me.txtCodigoEntrenador.Name = "txtCodigoEntrenador"
+        Me.txtCodigoEntrenador.Size = New System.Drawing.Size(100, 22)
+        Me.txtCodigoEntrenador.TabIndex = 10
         '
         'btnCrear
         '
-        Me.btnCrear.Location = New System.Drawing.Point(239, 395)
+        Me.btnCrear.Location = New System.Drawing.Point(331, 368)
         Me.btnCrear.Name = "btnCrear"
         Me.btnCrear.Size = New System.Drawing.Size(75, 23)
-        Me.btnCrear.TabIndex = 32
+        Me.btnCrear.TabIndex = 30
         Me.btnCrear.Text = "Crear"
         Me.btnCrear.UseVisualStyleBackColor = True
         '
-        'btnLimpiar
-        '
-        Me.btnLimpiar.Location = New System.Drawing.Point(436, 395)
-        Me.btnLimpiar.Name = "btnLimpiar"
-        Me.btnLimpiar.Size = New System.Drawing.Size(75, 23)
-        Me.btnLimpiar.TabIndex = 33
-        Me.btnLimpiar.Text = "Atrás"
-        Me.btnLimpiar.UseVisualStyleBackColor = True
-        '
-        'NuevaCompetir
+        'Entrenamiento
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.btnLimpiar)
         Me.Controls.Add(Me.btnCrear)
-        Me.Controls.Add(Me.txtCompeticion)
+        Me.Controls.Add(Me.txtCodigoEntrenador)
+        Me.Controls.Add(Me.txtCodigoJugador)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.txtCodJugador)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "NuevaCompetir"
-        Me.Text = "NuevaCompetir"
+        Me.Name = "Entrenamiento"
+        Me.Text = "Entrenamiento"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -114,9 +104,8 @@ Partial Class NuevaCompetir
 
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents txtCodJugador As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents txtCompeticion As TextBox
+    Friend WithEvents txtCodigoJugador As TextBox
+    Friend WithEvents txtCodigoEntrenador As TextBox
     Friend WithEvents btnCrear As Button
-    Friend WithEvents btnLimpiar As Button
 End Class

@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B7039EE7-DAEC-45A6-95CE-7142A09CC1F1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>capaPresentacion.ListadoEntrenamientos</StartupObject>
+    <StartupObject>capaPresentacion.My.MyApplication</StartupObject>
     <RootNamespace>capaPresentacion</RootNamespace>
     <AssemblyName>capaPresentacion</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -147,6 +147,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Afiliados.Designer.vb">
+      <DependentUpon>Afiliados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Afiliados.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="BorradoAfiliados.Designer.vb">
       <DependentUpon>BorradoAfiliados.vb</DependentUpon>
     </Compile>
@@ -181,6 +187,42 @@
       <DependentUpon>BorradoProyecto.vb</DependentUpon>
     </Compile>
     <Compile Include="BorradoProyecto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clubes.Designer.vb">
+      <DependentUpon>Clubes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Clubes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Competiciones.Designer.vb">
+      <DependentUpon>Competiciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Competiciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Competidores.Designer.vb">
+      <DependentUpon>Competidores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Competidores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entrenadores.Designer.vb">
+      <DependentUpon>Entrenadores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Entrenadores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entrenamiento.Designer.vb">
+      <DependentUpon>Entrenamiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Entrenamiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jugadores.Designer.vb">
+      <DependentUpon>Jugadores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Jugadores.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ListadoAfiliados.Designer.vb">
@@ -355,8 +397,29 @@
     <Compile Include="NuevoTrofeo.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Patrocinios.Designer.vb">
+      <DependentUpon>Patrocinios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patrocinios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyectos.Designer.vb">
+      <DependentUpon>Proyectos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Proyectos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trofeos.Designer.vb">
+      <DependentUpon>Trofeos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Trofeos.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Afiliados.resx">
+      <DependentUpon>Afiliados.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BorradoAfiliados.resx">
       <DependentUpon>BorradoAfiliados.vb</DependentUpon>
     </EmbeddedResource>
@@ -374,6 +437,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BorradoProyecto.resx">
       <DependentUpon>BorradoProyecto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clubes.resx">
+      <DependentUpon>Clubes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Competiciones.resx">
+      <DependentUpon>Competiciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Competidores.resx">
+      <DependentUpon>Competidores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entrenadores.resx">
+      <DependentUpon>Entrenadores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entrenamiento.resx">
+      <DependentUpon>Entrenamiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jugadores.resx">
+      <DependentUpon>Jugadores.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListadoAfiliados.resx">
       <DependentUpon>ListadoAfiliados.vb</DependentUpon>
@@ -458,6 +539,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NuevoTrofeo.resx">
       <DependentUpon>NuevoTrofeo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patrocinios.resx">
+      <DependentUpon>Patrocinios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyectos.resx">
+      <DependentUpon>Proyectos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trofeos.resx">
+      <DependentUpon>Trofeos.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

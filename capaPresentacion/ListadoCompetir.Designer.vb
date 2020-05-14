@@ -26,6 +26,7 @@ Partial Class ListadoCompetir
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.lblTotal = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -69,11 +70,21 @@ Partial Class ListadoCompetir
         Me.lblTotal.Size = New System.Drawing.Size(2, 27)
         Me.lblTotal.TabIndex = 12
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(48, 523)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 13
+        Me.Button1.Text = "Atrás"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'ListadoCompetir
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1035, 590)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.lblTotal)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.DataGridView1)
@@ -90,4 +101,5 @@ Partial Class ListadoCompetir
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Label2 As Label
     Friend WithEvents lblTotal As Label
+    Friend WithEvents Button1 As Button
 End Class
