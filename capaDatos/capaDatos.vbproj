@@ -67,7 +67,9 @@
   <ItemGroup>
     <Compile Include="CDAfiliado.vb" />
     <Compile Include="CDClub.vb" />
+    <Compile Include="CDCompetir.vb" />
     <Compile Include="CDConection.vb" />
+    <Compile Include="CDEntrena.vb" />
     <Compile Include="CDEntrenador.vb" />
     <Compile Include="CDJugador.vb" />
     <Compile Include="CDPatrocinio.vb" />

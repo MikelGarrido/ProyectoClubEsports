@@ -67,7 +67,9 @@
     <Compile Include="CEAfiliado.vb" />
     <Compile Include="CEClub.vb" />
     <Compile Include="CECompeticion.vb" />
+    <Compile Include="CECompetir.vb" />
     <Compile Include="CEEntrenador.vb" />
+    <Compile Include="CEEntrena.vb" />
     <Compile Include="CEJugador.vb" />
     <Compile Include="CEPatrocinio.vb" />
     <Compile Include="CEProyecto.vb" />

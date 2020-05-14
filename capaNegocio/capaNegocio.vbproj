@@ -67,6 +67,8 @@
     <Compile Include="CNAfiliado.vb" />
     <Compile Include="CNClub.vb" />
     <Compile Include="CNCompeticion.vb" />
+    <Compile Include="CNCompetir.vb" />
+    <Compile Include="CNEntrena.vb" />
     <Compile Include="CNEntrenador.vb" />
     <Compile Include="CNJugador.vb" />
     <Compile Include="CNPatrocinio.vb" />
