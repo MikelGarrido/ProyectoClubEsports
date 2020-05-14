@@ -3,7 +3,7 @@ Imports capaNegocio
 
 Public Class NuevoClub
     Dim objClub As New CEClub
-    Dim objNegocio As New CNClubes
+    Dim objNegocio As New CNClub
     Function getCodigo() As String
         Return txtCodigo.Text.Trim
     End Function
@@ -20,5 +20,9 @@ Public Class NuevoClub
 
     Private Sub btnCrear_Click(sender As Object, e As EventArgs) Handles btnCrear.Click
         registroClubes()
+    End Sub
+
+    Private Sub NuevoClub_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

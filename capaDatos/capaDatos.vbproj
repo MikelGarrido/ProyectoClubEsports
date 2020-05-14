@@ -65,8 +65,15 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CDAfiliado.vb" />
     <Compile Include="CDClub.vb" />
     <Compile Include="CDConection.vb" />
+    <Compile Include="CDEntrenador.vb" />
+    <Compile Include="CDJugador.vb" />
+    <Compile Include="CDPatrocinio.vb" />
+    <Compile Include="CDProyecto.vb" />
+    <Compile Include="CDTrofeo.vb" />
+    <Compile Include="CDCompeticion.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

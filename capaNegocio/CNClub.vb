@@ -1,6 +1,6 @@
 ﻿Imports capaDatos
 Imports capaEntidad
-Public Class CNClubes
+Public Class CNClub
     Dim objCapaDatos As New CDClub
     Function listarClubes() As DataSet
         Return objCapaDatos.listarClubes

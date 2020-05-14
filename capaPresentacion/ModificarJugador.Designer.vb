@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class NuevoClub
+Partial Class ModificarJugador
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -24,89 +24,99 @@ Partial Class NuevoClub
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.btnCrear = New System.Windows.Forms.Button()
-        Me.btnLimpiar = New System.Windows.Forms.Button()
         Me.txtCodigo = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.txtNombre = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.txtSalario = New System.Windows.Forms.TextBox()
+        Me.btnMod = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Trebuchet MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(210, 33)
+        Me.Label1.Location = New System.Drawing.Point(252, 34)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(182, 36)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "NUEVO CLUB"
+        Me.Label1.Size = New System.Drawing.Size(272, 36)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "MODIFICAR TROFEO"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(121, 148)
+        Me.Label2.Location = New System.Drawing.Point(130, 120)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(99, 25)
-        Me.Label2.TabIndex = 1
+        Me.Label2.TabIndex = 4
         Me.Label2.Text = "CÓDIGO"
+        '
+        'txtCodigo
+        '
+        Me.txtCodigo.Location = New System.Drawing.Point(392, 124)
+        Me.txtCodigo.Name = "txtCodigo"
+        Me.txtCodigo.Size = New System.Drawing.Size(100, 22)
+        Me.txtCodigo.TabIndex = 8
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(116, 244)
+        Me.Label3.Location = New System.Drawing.Point(130, 199)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(104, 25)
-        Me.Label3.TabIndex = 2
-        Me.Label3.Text = "NOMBRE"
-        '
-        'btnCrear
-        '
-        Me.btnCrear.Location = New System.Drawing.Point(216, 369)
-        Me.btnCrear.Name = "btnCrear"
-        Me.btnCrear.Size = New System.Drawing.Size(75, 23)
-        Me.btnCrear.TabIndex = 3
-        Me.btnCrear.Text = "Crear"
-        Me.btnCrear.UseVisualStyleBackColor = True
-        '
-        'btnLimpiar
-        '
-        Me.btnLimpiar.Location = New System.Drawing.Point(415, 369)
-        Me.btnLimpiar.Name = "btnLimpiar"
-        Me.btnLimpiar.Size = New System.Drawing.Size(75, 23)
-        Me.btnLimpiar.TabIndex = 4
-        Me.btnLimpiar.Text = "Atrás"
-        Me.btnLimpiar.UseVisualStyleBackColor = True
-        '
-        'txtCodigo
-        '
-        Me.txtCodigo.Location = New System.Drawing.Point(332, 152)
-        Me.txtCodigo.Name = "txtCodigo"
-        Me.txtCodigo.Size = New System.Drawing.Size(100, 22)
-        Me.txtCodigo.TabIndex = 5
+        Me.Label3.Size = New System.Drawing.Size(186, 25)
+        Me.Label3.TabIndex = 9
+        Me.Label3.Text = "NUEVO NOMBRE"
         '
         'txtNombre
         '
-        Me.txtNombre.Location = New System.Drawing.Point(332, 248)
+        Me.txtNombre.Location = New System.Drawing.Point(392, 203)
         Me.txtNombre.Name = "txtNombre"
         Me.txtNombre.Size = New System.Drawing.Size(100, 22)
-        Me.txtNombre.TabIndex = 6
+        Me.txtNombre.TabIndex = 10
         '
-        'NuevoClub
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(130, 295)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(188, 25)
+        Me.Label4.TabIndex = 11
+        Me.Label4.Text = "NUEVO SALARIO"
+        '
+        'txtSalario
+        '
+        Me.txtSalario.Location = New System.Drawing.Point(392, 299)
+        Me.txtSalario.Name = "txtSalario"
+        Me.txtSalario.Size = New System.Drawing.Size(100, 22)
+        Me.txtSalario.TabIndex = 12
+        '
+        'btnMod
+        '
+        Me.btnMod.Location = New System.Drawing.Point(328, 391)
+        Me.btnMod.Name = "btnMod"
+        Me.btnMod.Size = New System.Drawing.Size(75, 23)
+        Me.btnMod.TabIndex = 15
+        Me.btnMod.Text = "Modificar"
+        Me.btnMod.UseVisualStyleBackColor = True
+        '
+        'ModificarJugador
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(761, 464)
+        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnMod)
+        Me.Controls.Add(Me.txtSalario)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.txtNombre)
-        Me.Controls.Add(Me.txtCodigo)
-        Me.Controls.Add(Me.btnLimpiar)
-        Me.Controls.Add(Me.btnCrear)
         Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.txtCodigo)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "NuevoClub"
-        Me.Text = "NuevoClub"
+        Me.Name = "ModificarJugador"
+        Me.Text = "ModificarJugador"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -114,9 +124,10 @@ Partial Class NuevoClub
 
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents btnCrear As Button
-    Friend WithEvents btnLimpiar As Button
     Friend WithEvents txtCodigo As TextBox
+    Friend WithEvents Label3 As Label
     Friend WithEvents txtNombre As TextBox
+    Friend WithEvents Label4 As Label
+    Friend WithEvents txtSalario As TextBox
+    Friend WithEvents btnMod As Button
 End Class

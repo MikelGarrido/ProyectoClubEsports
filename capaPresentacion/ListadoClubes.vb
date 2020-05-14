@@ -5,8 +5,9 @@ Public Class ListadoClubes
     End Sub
 
     Sub listarClubes()
-        Dim objCapaNegocio As New CNClubes
-        DataGridView1.DataSource = objCapaNegocio.listarClubes.Tables("CLUBES")
-        lblTotal.Text = objCapaNegocio.listarClubes.Tables("CLUBES").Rows.Count
+        Dim objCapaNegocio As New CNClub
+        Me.DataGridView1.DataSource = objCapaNegocio.listarClubes.Tables("CLUBES")
+        Me.lblTotal.Text = objCapaNegocio.listarClubes.Tables("CLUBES").Rows.Count
     End Sub
+
 End Class

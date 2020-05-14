@@ -64,7 +64,14 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CEAfiliado.vb" />
     <Compile Include="CEClub.vb" />
+    <Compile Include="CECompeticion.vb" />
+    <Compile Include="CEEntrenador.vb" />
+    <Compile Include="CEJugador.vb" />
+    <Compile Include="CEPatrocinio.vb" />
+    <Compile Include="CEProyecto.vb" />
+    <Compile Include="CETrofeo.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

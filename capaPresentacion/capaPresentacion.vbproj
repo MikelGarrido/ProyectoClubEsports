@@ -147,10 +147,46 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BorradoAfiliados.Designer.vb">
+      <DependentUpon>BorradoAfiliados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BorradoAfiliados.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="BorradoClubes.Designer.vb">
       <DependentUpon>BorradoClubes.vb</DependentUpon>
     </Compile>
     <Compile Include="BorradoClubes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorradoEntrenador.Designer.vb">
+      <DependentUpon>BorradoEntrenador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BorradoEntrenador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorradoJugador.Designer.vb">
+      <DependentUpon>BorradoJugador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BorradoJugador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorradoPatrocinio.Designer.vb">
+      <DependentUpon>BorradoPatrocinio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BorradoPatrocinio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorradoProyecto.Designer.vb">
+      <DependentUpon>BorradoProyecto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BorradoProyecto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListadoAfiliados.Designer.vb">
+      <DependentUpon>ListadoAfiliados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoAfiliados.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ListadoClubes.vb">
@@ -160,10 +196,64 @@
       <DependentUpon>ListadoClubes.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ListadoCompeticiones.Designer.vb">
+      <DependentUpon>ListadoCompeticiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoCompeticiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListadoEntrenadores.Designer.vb">
+      <DependentUpon>ListadoEntrenadores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoEntrenadores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListadoJugadores.Designer.vb">
+      <DependentUpon>ListadoJugadores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoJugadores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListadoPatrocinios.Designer.vb">
+      <DependentUpon>ListadoPatrocinios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoPatrocinios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListadoProyectos.Designer.vb">
+      <DependentUpon>ListadoProyectos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoProyectos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListadoTrofeos.Designer.vb">
+      <DependentUpon>ListadoTrofeos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoTrofeos.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ModificarClubes.Designer.vb">
       <DependentUpon>ModificarClubes.vb</DependentUpon>
     </Compile>
     <Compile Include="ModificarClubes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarEntrenador.Designer.vb">
+      <DependentUpon>ModificarEntrenador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarEntrenador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarJugador.Designer.vb">
+      <DependentUpon>ModificarJugador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarJugador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarTrofeo.Designer.vb">
+      <DependentUpon>ModificarTrofeo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarTrofeo.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -181,22 +271,103 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="NuevoAfiliado.Designer.vb">
+      <DependentUpon>NuevoAfiliado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoAfiliado.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="NuevoClub.Designer.vb">
       <DependentUpon>NuevoClub.vb</DependentUpon>
     </Compile>
     <Compile Include="NuevoClub.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="NuevoEntrenador.Designer.vb">
+      <DependentUpon>NuevoEntrenador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoEntrenador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevoJugador.Designer.vb">
+      <DependentUpon>NuevoJugador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoJugador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevoPatrocinio.Designer.vb">
+      <DependentUpon>NuevoPatrocinio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoPatrocinio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevoProyecto.Designer.vb">
+      <DependentUpon>NuevoProyecto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoProyecto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevoTrofeo.Designer.vb">
+      <DependentUpon>NuevoTrofeo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoTrofeo.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="BorradoAfiliados.resx">
+      <DependentUpon>BorradoAfiliados.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BorradoClubes.resx">
       <DependentUpon>BorradoClubes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorradoEntrenador.resx">
+      <DependentUpon>BorradoEntrenador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorradoJugador.resx">
+      <DependentUpon>BorradoJugador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorradoPatrocinio.resx">
+      <DependentUpon>BorradoPatrocinio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorradoProyecto.resx">
+      <DependentUpon>BorradoProyecto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListadoAfiliados.resx">
+      <DependentUpon>ListadoAfiliados.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListadoClubes.resx">
       <DependentUpon>ListadoClubes.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ListadoCompeticiones.resx">
+      <DependentUpon>ListadoCompeticiones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListadoEntrenadores.resx">
+      <DependentUpon>ListadoEntrenadores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListadoJugadores.resx">
+      <DependentUpon>ListadoJugadores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListadoPatrocinios.resx">
+      <DependentUpon>ListadoPatrocinios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListadoProyectos.resx">
+      <DependentUpon>ListadoProyectos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListadoTrofeos.resx">
+      <DependentUpon>ListadoTrofeos.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ModificarClubes.resx">
       <DependentUpon>ModificarClubes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarEntrenador.resx">
+      <DependentUpon>ModificarEntrenador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarJugador.resx">
+      <DependentUpon>ModificarJugador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarTrofeo.resx">
+      <DependentUpon>ModificarTrofeo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -204,8 +375,26 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="NuevoAfiliado.resx">
+      <DependentUpon>NuevoAfiliado.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NuevoClub.resx">
       <DependentUpon>NuevoClub.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoEntrenador.resx">
+      <DependentUpon>NuevoEntrenador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoJugador.resx">
+      <DependentUpon>NuevoJugador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoPatrocinio.resx">
+      <DependentUpon>NuevoPatrocinio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoProyecto.resx">
+      <DependentUpon>NuevoProyecto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoTrofeo.resx">
+      <DependentUpon>NuevoTrofeo.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
