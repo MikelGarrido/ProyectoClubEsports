@@ -202,10 +202,22 @@
     <Compile Include="ListadoCompeticiones.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ListadoCompetir.Designer.vb">
+      <DependentUpon>ListadoCompetir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoCompetir.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ListadoEntrenadores.Designer.vb">
       <DependentUpon>ListadoEntrenadores.vb</DependentUpon>
     </Compile>
     <Compile Include="ListadoEntrenadores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListadoEntrenamientos.Designer.vb">
+      <DependentUpon>ListadoEntrenamientos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoEntrenamientos.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ListadoJugadores.Designer.vb">
@@ -232,10 +244,20 @@
     <Compile Include="ListadoTrofeos.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MenuInicio.Designer.vb">
+      <DependentUpon>MenuInicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuInicio.vb" />
     <Compile Include="ModificarClubes.Designer.vb">
       <DependentUpon>ModificarClubes.vb</DependentUpon>
     </Compile>
     <Compile Include="ModificarClubes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarCompeticiones.Designer.vb">
+      <DependentUpon>ModificarCompeticiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarCompeticiones.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ModificarEntrenador.Designer.vb">
@@ -271,6 +293,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="NuevaCompeticion.Designer.vb">
+      <DependentUpon>NuevaCompeticion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NuevaCompeticion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevaCompetir.Designer.vb">
+      <DependentUpon>NuevaCompetir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NuevaCompetir.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="NuevoAfiliado.Designer.vb">
       <DependentUpon>NuevoAfiliado.vb</DependentUpon>
     </Compile>
@@ -287,6 +321,12 @@
       <DependentUpon>NuevoEntrenador.vb</DependentUpon>
     </Compile>
     <Compile Include="NuevoEntrenador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevoEntrenamiento.Designer.vb">
+      <DependentUpon>NuevoEntrenamiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoEntrenamiento.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="NuevoJugador.Designer.vb">
@@ -342,8 +382,14 @@
     <EmbeddedResource Include="ListadoCompeticiones.resx">
       <DependentUpon>ListadoCompeticiones.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ListadoCompetir.resx">
+      <DependentUpon>ListadoCompetir.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ListadoEntrenadores.resx">
       <DependentUpon>ListadoEntrenadores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListadoEntrenamientos.resx">
+      <DependentUpon>ListadoEntrenamientos.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListadoJugadores.resx">
       <DependentUpon>ListadoJugadores.vb</DependentUpon>
@@ -357,8 +403,14 @@
     <EmbeddedResource Include="ListadoTrofeos.resx">
       <DependentUpon>ListadoTrofeos.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MenuInicio.resx">
+      <DependentUpon>MenuInicio.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ModificarClubes.resx">
       <DependentUpon>ModificarClubes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificarCompeticiones.resx">
+      <DependentUpon>ModificarCompeticiones.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModificarEntrenador.resx">
       <DependentUpon>ModificarEntrenador.vb</DependentUpon>
@@ -375,6 +427,12 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="NuevaCompeticion.resx">
+      <DependentUpon>NuevaCompeticion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevaCompetir.resx">
+      <DependentUpon>NuevaCompetir.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NuevoAfiliado.resx">
       <DependentUpon>NuevoAfiliado.vb</DependentUpon>
     </EmbeddedResource>
@@ -383,6 +441,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NuevoEntrenador.resx">
       <DependentUpon>NuevoEntrenador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoEntrenamiento.resx">
+      <DependentUpon>NuevoEntrenamiento.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NuevoJugador.resx">
       <DependentUpon>NuevoJugador.vb</DependentUpon>
