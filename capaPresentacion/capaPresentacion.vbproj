@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B7039EE7-DAEC-45A6-95CE-7142A09CC1F1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>capaPresentacion.My.MyApplication</StartupObject>
+    <StartupObject>capaPresentacion.ListadoEntrenamientos</StartupObject>
     <RootNamespace>capaPresentacion</RootNamespace>
     <AssemblyName>capaPresentacion</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -247,7 +247,9 @@
     <Compile Include="MenuInicio.Designer.vb">
       <DependentUpon>MenuInicio.vb</DependentUpon>
     </Compile>
-    <Compile Include="MenuInicio.vb" />
+    <Compile Include="MenuInicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ModificarClubes.Designer.vb">
       <DependentUpon>ModificarClubes.vb</DependentUpon>
     </Compile>

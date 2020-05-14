@@ -22,161 +22,137 @@ Partial Class MenuInicio
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
+        Me.btnClubes = New System.Windows.Forms.Button()
+        Me.btnAfiliados = New System.Windows.Forms.Button()
+        Me.btnPatrocinios = New System.Windows.Forms.Button()
+        Me.btnProyectos = New System.Windows.Forms.Button()
+        Me.btnTrofeos = New System.Windows.Forms.Button()
+        Me.btnEntrenadores = New System.Windows.Forms.Button()
+        Me.btnEntrenamientos = New System.Windows.Forms.Button()
+        Me.btnJugadores = New System.Windows.Forms.Button()
+        Me.btnCompetidas = New System.Windows.Forms.Button()
+        Me.btnCompeticiones = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Label1
+        'btnClubes
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Trebuchet MS", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(558, 9)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(138, 38)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "ESPORTS"
+        Me.btnClubes.Location = New System.Drawing.Point(114, 105)
+        Me.btnClubes.Name = "btnClubes"
+        Me.btnClubes.Size = New System.Drawing.Size(133, 136)
+        Me.btnClubes.TabIndex = 0
+        Me.btnClubes.Text = "Clubes"
+        Me.btnClubes.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnAfiliados
         '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(44, 87)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(200, 76)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "CLUBES"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnAfiliados.Location = New System.Drawing.Point(336, 116)
+        Me.btnAfiliados.Name = "btnAfiliados"
+        Me.btnAfiliados.Size = New System.Drawing.Size(147, 115)
+        Me.btnAfiliados.TabIndex = 1
+        Me.btnAfiliados.Text = "Afiliados"
+        Me.btnAfiliados.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnPatrocinios
         '
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(282, 87)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(228, 76)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "AFILIADOS"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnPatrocinios.Location = New System.Drawing.Point(597, 132)
+        Me.btnPatrocinios.Name = "btnPatrocinios"
+        Me.btnPatrocinios.Size = New System.Drawing.Size(145, 83)
+        Me.btnPatrocinios.TabIndex = 2
+        Me.btnPatrocinios.Text = "Patrocinios"
+        Me.btnPatrocinios.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnProyectos
         '
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(545, 87)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(176, 76)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "PATROCINIOS"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnProyectos.Location = New System.Drawing.Point(842, 192)
+        Me.btnProyectos.Name = "btnProyectos"
+        Me.btnProyectos.Size = New System.Drawing.Size(157, 78)
+        Me.btnProyectos.TabIndex = 3
+        Me.btnProyectos.Text = "Proyectos"
+        Me.btnProyectos.UseVisualStyleBackColor = True
         '
-        'Button4
+        'btnTrofeos
         '
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(962, 87)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(182, 76)
-        Me.Button4.TabIndex = 4
-        Me.Button4.Text = "PROYECTOS"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btnTrofeos.Location = New System.Drawing.Point(157, 320)
+        Me.btnTrofeos.Name = "btnTrofeos"
+        Me.btnTrofeos.Size = New System.Drawing.Size(155, 92)
+        Me.btnTrofeos.TabIndex = 4
+        Me.btnTrofeos.Text = "TROFEOS"
+        Me.btnTrofeos.UseVisualStyleBackColor = True
         '
-        'Button5
+        'btnEntrenadores
         '
-        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(734, 87)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(221, 76)
-        Me.Button5.TabIndex = 5
-        Me.Button5.Text = "TROFEOS"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.btnEntrenadores.Location = New System.Drawing.Point(372, 300)
+        Me.btnEntrenadores.Name = "btnEntrenadores"
+        Me.btnEntrenadores.Size = New System.Drawing.Size(166, 133)
+        Me.btnEntrenadores.TabIndex = 5
+        Me.btnEntrenadores.Text = "ENTRENADORES"
+        Me.btnEntrenadores.UseVisualStyleBackColor = True
         '
-        'Button6
+        'btnEntrenamientos
         '
-        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(44, 192)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(200, 75)
-        Me.Button6.TabIndex = 6
-        Me.Button6.Text = "ENTRENADORES"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.btnEntrenamientos.Location = New System.Drawing.Point(597, 345)
+        Me.btnEntrenamientos.Name = "btnEntrenamientos"
+        Me.btnEntrenamientos.Size = New System.Drawing.Size(181, 78)
+        Me.btnEntrenamientos.TabIndex = 6
+        Me.btnEntrenamientos.Text = "ENTRENAMIENTOS"
+        Me.btnEntrenamientos.UseVisualStyleBackColor = True
         '
-        'Button7
+        'btnJugadores
         '
-        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(282, 192)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(228, 75)
-        Me.Button7.TabIndex = 7
-        Me.Button7.Text = "ENTRENAMIENTOS"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.btnJugadores.Location = New System.Drawing.Point(842, 355)
+        Me.btnJugadores.Name = "btnJugadores"
+        Me.btnJugadores.Size = New System.Drawing.Size(142, 124)
+        Me.btnJugadores.TabIndex = 7
+        Me.btnJugadores.Text = "JUGADORES"
+        Me.btnJugadores.UseVisualStyleBackColor = True
         '
-        'Button8
+        'btnCompetidas
         '
-        Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(545, 192)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(176, 75)
-        Me.Button8.TabIndex = 8
-        Me.Button8.Text = "JUGADORES"
-        Me.Button8.UseVisualStyleBackColor = True
+        Me.btnCompetidas.Location = New System.Drawing.Point(114, 465)
+        Me.btnCompetidas.Name = "btnCompetidas"
+        Me.btnCompetidas.Size = New System.Drawing.Size(170, 66)
+        Me.btnCompetidas.TabIndex = 8
+        Me.btnCompetidas.Text = "COMPETIDAS"
+        Me.btnCompetidas.UseVisualStyleBackColor = True
         '
-        'Button9
+        'btnCompeticiones
         '
-        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Location = New System.Drawing.Point(962, 192)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(182, 75)
-        Me.Button9.TabIndex = 9
-        Me.Button9.Text = "COMPETIDAS"
-        Me.Button9.UseVisualStyleBackColor = True
-        '
-        'Button10
-        '
-        Me.Button10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.Location = New System.Drawing.Point(734, 192)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(221, 75)
-        Me.Button10.TabIndex = 10
-        Me.Button10.Text = "COMPETICIONES"
-        Me.Button10.UseVisualStyleBackColor = True
+        Me.btnCompeticiones.Location = New System.Drawing.Point(398, 487)
+        Me.btnCompeticiones.Name = "btnCompeticiones"
+        Me.btnCompeticiones.Size = New System.Drawing.Size(178, 44)
+        Me.btnCompeticiones.TabIndex = 9
+        Me.btnCompeticiones.Text = "COMPETICIONES"
+        Me.btnCompeticiones.UseVisualStyleBackColor = True
         '
         'MenuInicio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1156, 297)
-        Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label1)
+        Me.ClientSize = New System.Drawing.Size(1204, 567)
+        Me.Controls.Add(Me.btnCompeticiones)
+        Me.Controls.Add(Me.btnCompetidas)
+        Me.Controls.Add(Me.btnJugadores)
+        Me.Controls.Add(Me.btnEntrenamientos)
+        Me.Controls.Add(Me.btnEntrenadores)
+        Me.Controls.Add(Me.btnTrofeos)
+        Me.Controls.Add(Me.btnProyectos)
+        Me.Controls.Add(Me.btnPatrocinios)
+        Me.Controls.Add(Me.btnAfiliados)
+        Me.Controls.Add(Me.btnClubes)
         Me.Name = "MenuInicio"
         Me.Text = "MenuInicio"
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button10 As Button
+    Friend WithEvents btnClubes As Button
+    Friend WithEvents btnAfiliados As Button
+    Friend WithEvents btnPatrocinios As Button
+    Friend WithEvents btnProyectos As Button
+    Friend WithEvents btnTrofeos As Button
+    Friend WithEvents btnEntrenadores As Button
+    Friend WithEvents btnEntrenamientos As Button
+    Friend WithEvents btnJugadores As Button
+    Friend WithEvents btnCompetidas As Button
+    Friend WithEvents btnCompeticiones As Button
 End Class

@@ -12,7 +12,7 @@ Public Class CDEntrena
             cn = objConection.conectar
             da = New SqlDataAdapter("SP_listarEntrenamientos", cn)
             Dim ds As New DataSet
-            da.Fill(ds, "Entrenamientos")
+            da.Fill(ds, "Entrena")
             Return ds
         Catch ex As Exception
             Throw ex
