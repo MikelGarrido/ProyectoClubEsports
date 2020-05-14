@@ -46,7 +46,7 @@ Public Class CDCompeticion
             da = New SqlDataAdapter("SP_crearCompeticion", cn)
             da.SelectCommand.CommandType = CommandType.StoredProcedure
             With da.SelectCommand.Parameters
-                .Add("@IDCOMEPTICION", SqlDbType.Int).Value = obj.IDCOMEPTICION
+                .Add("@IDCOMEPTICION", SqlDbType.Int).Value = obj.IDCOMPETICION
                 .Add("@NOMBRE", SqlDbType.NVarChar).Value = obj.NOMBRE
                 .Add("@FECHA", SqlDbType.Money).Value = obj.FECHA
                 .Add("@JUEGO", SqlDbType.Money).Value = obj.JUEGO
@@ -68,7 +68,7 @@ Public Class CDCompeticion
             da = New SqlDataAdapter("SP_modificarCompeticion", cn)
             da.SelectCommand.CommandType = CommandType.StoredProcedure
             With da.SelectCommand.Parameters
-                .Add("@IDCOMEPTICION", SqlDbType.Int).Value = obj.IDCOMEPTICION
+                .Add("@IDCOMEPTICION", SqlDbType.Int).Value = obj.IDCOMPETICION
                 .Add("@NOMBRE", SqlDbType.NVarChar).Value = obj.NOMBRE
                 .Add("@FECHA", SqlDbType.Money).Value = obj.FECHA
                 .Add("@JUEGO", SqlDbType.Money).Value = obj.JUEGO

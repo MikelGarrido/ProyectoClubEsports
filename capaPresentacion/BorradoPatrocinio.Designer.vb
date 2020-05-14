@@ -34,9 +34,9 @@ Partial Class BorradoPatrocinio
         Me.Label2.Font = New System.Drawing.Font("Trebuchet MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(269, 62)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(248, 36)
+        Me.Label2.Size = New System.Drawing.Size(284, 36)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "BORRAR AFILIADO"
+        Me.Label2.Text = "BORRAR PATROCINIO"
         '
         'Label1
         '
