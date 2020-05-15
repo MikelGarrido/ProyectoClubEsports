@@ -28,13 +28,15 @@ Partial Class ModificarClubes
         Me.txtCodigo = New System.Windows.Forms.TextBox()
         Me.txtNombre = New System.Windows.Forms.TextBox()
         Me.btnMod = New System.Windows.Forms.Button()
+        Me.btnBorrar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Trebuchet MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(268, 37)
+        Me.Label1.Location = New System.Drawing.Point(201, 30)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(235, 36)
         Me.Label1.TabIndex = 0
@@ -44,7 +46,8 @@ Partial Class ModificarClubes
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(115, 154)
+        Me.Label2.Location = New System.Drawing.Point(86, 125)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(99, 25)
         Me.Label2.TabIndex = 1
@@ -54,7 +57,8 @@ Partial Class ModificarClubes
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(115, 214)
+        Me.Label3.Location = New System.Drawing.Point(86, 174)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(186, 25)
         Me.Label3.TabIndex = 2
@@ -62,38 +66,53 @@ Partial Class ModificarClubes
         '
         'txtCodigo
         '
-        Me.txtCodigo.Location = New System.Drawing.Point(350, 158)
+        Me.txtCodigo.Location = New System.Drawing.Point(320, 131)
+        Me.txtCodigo.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtCodigo.Name = "txtCodigo"
-        Me.txtCodigo.Size = New System.Drawing.Size(100, 22)
+        Me.txtCodigo.Size = New System.Drawing.Size(76, 20)
         Me.txtCodigo.TabIndex = 3
         '
         'txtNombre
         '
-        Me.txtNombre.Location = New System.Drawing.Point(350, 218)
+        Me.txtNombre.Location = New System.Drawing.Point(320, 180)
+        Me.txtNombre.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtNombre.Name = "txtNombre"
-        Me.txtNombre.Size = New System.Drawing.Size(100, 22)
+        Me.txtNombre.Size = New System.Drawing.Size(76, 20)
         Me.txtNombre.TabIndex = 4
         '
         'btnMod
         '
-        Me.btnMod.Location = New System.Drawing.Point(350, 359)
+        Me.btnMod.Location = New System.Drawing.Point(262, 292)
+        Me.btnMod.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnMod.Name = "btnMod"
-        Me.btnMod.Size = New System.Drawing.Size(75, 23)
+        Me.btnMod.Size = New System.Drawing.Size(76, 26)
         Me.btnMod.TabIndex = 5
         Me.btnMod.Text = "Modificar"
         Me.btnMod.UseVisualStyleBackColor = True
         '
+        'btnBorrar
+        '
+        Me.btnBorrar.Location = New System.Drawing.Point(42, 293)
+        Me.btnBorrar.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnBorrar.Name = "btnBorrar"
+        Me.btnBorrar.Size = New System.Drawing.Size(56, 25)
+        Me.btnBorrar.TabIndex = 9
+        Me.btnBorrar.Text = "Atrás"
+        Me.btnBorrar.UseVisualStyleBackColor = True
+        '
         'ModificarClubes
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(600, 366)
+        Me.Controls.Add(Me.btnBorrar)
         Me.Controls.Add(Me.btnMod)
         Me.Controls.Add(Me.txtNombre)
         Me.Controls.Add(Me.txtCodigo)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "ModificarClubes"
         Me.Text = "ModificarClubes"
         Me.ResumeLayout(False)
@@ -107,4 +126,5 @@ Partial Class ModificarClubes
     Friend WithEvents txtCodigo As TextBox
     Friend WithEvents txtNombre As TextBox
     Friend WithEvents btnMod As Button
+    Friend WithEvents btnBorrar As Button
 End Class

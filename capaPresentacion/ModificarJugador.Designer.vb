@@ -30,13 +30,15 @@ Partial Class ModificarJugador
         Me.Label4 = New System.Windows.Forms.Label()
         Me.txtSalario = New System.Windows.Forms.TextBox()
         Me.btnMod = New System.Windows.Forms.Button()
+        Me.btnBorrar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Trebuchet MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(252, 34)
+        Me.Label1.Location = New System.Drawing.Point(189, 28)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(293, 36)
         Me.Label1.TabIndex = 3
@@ -46,7 +48,8 @@ Partial Class ModificarJugador
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(130, 120)
+        Me.Label2.Location = New System.Drawing.Point(98, 98)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(99, 25)
         Me.Label2.TabIndex = 4
@@ -54,16 +57,18 @@ Partial Class ModificarJugador
         '
         'txtCodigo
         '
-        Me.txtCodigo.Location = New System.Drawing.Point(392, 124)
+        Me.txtCodigo.Location = New System.Drawing.Point(337, 104)
+        Me.txtCodigo.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtCodigo.Name = "txtCodigo"
-        Me.txtCodigo.Size = New System.Drawing.Size(100, 22)
+        Me.txtCodigo.Size = New System.Drawing.Size(76, 20)
         Me.txtCodigo.TabIndex = 8
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(130, 199)
+        Me.Label3.Location = New System.Drawing.Point(98, 162)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(186, 25)
         Me.Label3.TabIndex = 9
@@ -71,16 +76,18 @@ Partial Class ModificarJugador
         '
         'txtNombre
         '
-        Me.txtNombre.Location = New System.Drawing.Point(392, 203)
+        Me.txtNombre.Location = New System.Drawing.Point(337, 168)
+        Me.txtNombre.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtNombre.Name = "txtNombre"
-        Me.txtNombre.Size = New System.Drawing.Size(100, 22)
+        Me.txtNombre.Size = New System.Drawing.Size(76, 20)
         Me.txtNombre.TabIndex = 10
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(130, 295)
+        Me.Label4.Location = New System.Drawing.Point(98, 240)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(188, 25)
         Me.Label4.TabIndex = 11
@@ -88,25 +95,38 @@ Partial Class ModificarJugador
         '
         'txtSalario
         '
-        Me.txtSalario.Location = New System.Drawing.Point(392, 299)
+        Me.txtSalario.Location = New System.Drawing.Point(337, 246)
+        Me.txtSalario.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtSalario.Name = "txtSalario"
-        Me.txtSalario.Size = New System.Drawing.Size(100, 22)
+        Me.txtSalario.Size = New System.Drawing.Size(76, 20)
         Me.txtSalario.TabIndex = 12
         '
         'btnMod
         '
-        Me.btnMod.Location = New System.Drawing.Point(328, 391)
+        Me.btnMod.Location = New System.Drawing.Point(246, 318)
+        Me.btnMod.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnMod.Name = "btnMod"
-        Me.btnMod.Size = New System.Drawing.Size(75, 23)
+        Me.btnMod.Size = New System.Drawing.Size(67, 23)
         Me.btnMod.TabIndex = 15
         Me.btnMod.Text = "Modificar"
         Me.btnMod.UseVisualStyleBackColor = True
         '
+        'btnBorrar
+        '
+        Me.btnBorrar.Location = New System.Drawing.Point(26, 317)
+        Me.btnBorrar.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnBorrar.Name = "btnBorrar"
+        Me.btnBorrar.Size = New System.Drawing.Size(56, 25)
+        Me.btnBorrar.TabIndex = 16
+        Me.btnBorrar.Text = "Atrás"
+        Me.btnBorrar.UseVisualStyleBackColor = True
+        '
         'ModificarJugador
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(600, 366)
+        Me.Controls.Add(Me.btnBorrar)
         Me.Controls.Add(Me.btnMod)
         Me.Controls.Add(Me.txtSalario)
         Me.Controls.Add(Me.Label4)
@@ -115,6 +135,7 @@ Partial Class ModificarJugador
         Me.Controls.Add(Me.txtCodigo)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "ModificarJugador"
         Me.Text = "ModificarJugador"
         Me.ResumeLayout(False)
@@ -130,4 +151,5 @@ Partial Class ModificarJugador
     Friend WithEvents Label4 As Label
     Friend WithEvents txtSalario As TextBox
     Friend WithEvents btnMod As Button
+    Friend WithEvents btnBorrar As Button
 End Class

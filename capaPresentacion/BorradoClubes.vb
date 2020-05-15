@@ -15,9 +15,10 @@ Public Class BorradoClubes
 
     Private Sub btnCrear_Click(sender As Object, e As EventArgs) Handles btnBorrar.Click
         borrarClubes()
+        Me.Close()
     End Sub
 
-    Private Sub BorradoClubes_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Close()
     End Sub
 End Class

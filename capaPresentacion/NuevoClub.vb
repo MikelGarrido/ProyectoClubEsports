@@ -20,9 +20,11 @@ Public Class NuevoClub
 
     Private Sub btnCrear_Click(sender As Object, e As EventArgs) Handles btnCrear.Click
         registroClubes()
+        Me.Close()
     End Sub
 
-    Private Sub NuevoClub_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    Private Sub btnLimpiar_Click(sender As Object, e As EventArgs) Handles btnLimpiar.Click
+        Me.Close()
     End Sub
 End Class

@@ -10,5 +10,7 @@ Public Class ListadoJugadores
         lblTotal.Text = objCapaNegocio.listarJugadores.Tables("JUGADORES").Rows.Count
     End Sub
 
-
+    Private Sub btnBorrar_Click(sender As Object, e As EventArgs) Handles btnBorrar.Click
+        Me.Close()
+    End Sub
 End Class

@@ -33,9 +33,10 @@ Public Class ModificarTrofeo
 
     Private Sub btnCrear_Click(sender As Object, e As EventArgs) Handles btnMod.Click
         modificarTrofeo()
+        Me.Close()
     End Sub
 
-    Private Sub ModificarTrofeo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+    Private Sub btnBorrar_Click(sender As Object, e As EventArgs) Handles btnBorrar.Click
+        Me.Close()
     End Sub
 End Class

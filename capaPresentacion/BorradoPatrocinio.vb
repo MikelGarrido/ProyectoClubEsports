@@ -17,9 +17,11 @@ Public Class BorradoPatrocinio
 
     Private Sub btnCrear_Click(sender As Object, e As EventArgs) Handles btnBorrar.Click
         borrarPatrocinio()
+        Me.Close()
     End Sub
 
-    Private Sub BorradoPatrocinio_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Close()
     End Sub
 End Class

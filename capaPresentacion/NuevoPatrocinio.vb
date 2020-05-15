@@ -34,9 +34,14 @@ Public Class NuevoPatrocinio
 
     Private Sub btnCrear_Click(sender As Object, e As EventArgs) Handles btnCrear.Click
         registroPatrocinios()
+        Me.Close()
     End Sub
 
     Private Sub NuevoPatrocinio_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         txtCodigo.Text = objNegocio.generarCodigoPatrocinio
+    End Sub
+
+    Private Sub btnLimpiar_Click(sender As Object, e As EventArgs) Handles btnLimpiar.Click
+        Me.Close()
     End Sub
 End Class

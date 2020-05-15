@@ -35,7 +35,8 @@ Partial Class NuevaCompetir
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Trebuchet MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(233, 31)
+        Me.Label1.Location = New System.Drawing.Point(175, 25)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(260, 36)
         Me.Label1.TabIndex = 7
@@ -45,7 +46,8 @@ Partial Class NuevaCompetir
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(57, 118)
+        Me.Label2.Location = New System.Drawing.Point(43, 96)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(256, 25)
         Me.Label2.TabIndex = 8
@@ -53,16 +55,18 @@ Partial Class NuevaCompetir
         '
         'txtCodJugador
         '
-        Me.txtCodJugador.Location = New System.Drawing.Point(436, 122)
+        Me.txtCodJugador.Location = New System.Drawing.Point(412, 102)
+        Me.txtCodJugador.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtCodJugador.Name = "txtCodJugador"
-        Me.txtCodJugador.Size = New System.Drawing.Size(100, 22)
+        Me.txtCodJugador.Size = New System.Drawing.Size(76, 20)
         Me.txtCodJugador.TabIndex = 29
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(57, 238)
+        Me.Label3.Location = New System.Drawing.Point(43, 193)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(326, 25)
         Me.Label3.TabIndex = 30
@@ -70,34 +74,37 @@ Partial Class NuevaCompetir
         '
         'txtCompeticion
         '
-        Me.txtCompeticion.Location = New System.Drawing.Point(436, 242)
+        Me.txtCompeticion.Location = New System.Drawing.Point(412, 199)
+        Me.txtCompeticion.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtCompeticion.Name = "txtCompeticion"
-        Me.txtCompeticion.Size = New System.Drawing.Size(100, 22)
+        Me.txtCompeticion.Size = New System.Drawing.Size(76, 20)
         Me.txtCompeticion.TabIndex = 31
         '
         'btnCrear
         '
-        Me.btnCrear.Location = New System.Drawing.Point(239, 395)
+        Me.btnCrear.Location = New System.Drawing.Point(379, 314)
+        Me.btnCrear.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnCrear.Name = "btnCrear"
-        Me.btnCrear.Size = New System.Drawing.Size(75, 23)
+        Me.btnCrear.Size = New System.Drawing.Size(56, 31)
         Me.btnCrear.TabIndex = 32
         Me.btnCrear.Text = "Crear"
         Me.btnCrear.UseVisualStyleBackColor = True
         '
         'btnLimpiar
         '
-        Me.btnLimpiar.Location = New System.Drawing.Point(436, 395)
+        Me.btnLimpiar.Location = New System.Drawing.Point(161, 314)
+        Me.btnLimpiar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnLimpiar.Name = "btnLimpiar"
-        Me.btnLimpiar.Size = New System.Drawing.Size(75, 23)
+        Me.btnLimpiar.Size = New System.Drawing.Size(56, 31)
         Me.btnLimpiar.TabIndex = 33
         Me.btnLimpiar.Text = "Atrás"
         Me.btnLimpiar.UseVisualStyleBackColor = True
         '
         'NuevaCompetir
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(600, 366)
         Me.Controls.Add(Me.btnLimpiar)
         Me.Controls.Add(Me.btnCrear)
         Me.Controls.Add(Me.txtCompeticion)
@@ -105,6 +112,7 @@ Partial Class NuevaCompetir
         Me.Controls.Add(Me.txtCodJugador)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "NuevaCompetir"
         Me.Text = "NuevaCompetir"
         Me.ResumeLayout(False)

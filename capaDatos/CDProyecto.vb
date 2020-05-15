@@ -29,7 +29,7 @@ Public Class CDProyecto
     Function generarCodigoProyecto() As Integer
         Try
             cn = objConection.conectar
-            da = New SqlDataAdapter("SP_getUltCodigoProyecto", cn)
+            da = New SqlDataAdapter("SP_getUltCodigoProyectos", cn)
             Dim r As Integer
             cn.Open()
             r = da.SelectCommand.ExecuteScalar

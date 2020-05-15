@@ -33,9 +33,14 @@ Public Class NuevoAfiliado
 
     Private Sub btnCrear_Click(sender As Object, e As EventArgs) Handles btnCrear.Click
         registroAfiliados()
+        Me.Close()
     End Sub
 
     Private Sub NuevoAfiliado_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         txtCodigo.Text = objNegocio.generarCodigoAfiliado
+    End Sub
+
+    Private Sub btnLimpiar_Click(sender As Object, e As EventArgs) Handles btnLimpiar.Click
+        Me.Close()
     End Sub
 End Class

@@ -153,6 +153,12 @@
     <Compile Include="Afiliados.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Bienvenido.Designer.vb">
+      <DependentUpon>Bienvenido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bienvenido.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="BorradoAfiliados.Designer.vb">
       <DependentUpon>BorradoAfiliados.vb</DependentUpon>
     </Compile>
@@ -367,12 +373,6 @@
     <Compile Include="NuevoEntrenador.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NuevoEntrenamiento.Designer.vb">
-      <DependentUpon>NuevoEntrenamiento.vb</DependentUpon>
-    </Compile>
-    <Compile Include="NuevoEntrenamiento.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="NuevoJugador.Designer.vb">
       <DependentUpon>NuevoJugador.vb</DependentUpon>
     </Compile>
@@ -419,6 +419,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Afiliados.resx">
       <DependentUpon>Afiliados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bienvenido.resx">
+      <DependentUpon>Bienvenido.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BorradoAfiliados.resx">
       <DependentUpon>BorradoAfiliados.vb</DependentUpon>
@@ -524,9 +527,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NuevoEntrenador.resx">
       <DependentUpon>NuevoEntrenador.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="NuevoEntrenamiento.resx">
-      <DependentUpon>NuevoEntrenamiento.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NuevoJugador.resx">
       <DependentUpon>NuevoJugador.vb</DependentUpon>

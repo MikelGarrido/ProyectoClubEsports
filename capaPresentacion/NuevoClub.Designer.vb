@@ -35,7 +35,8 @@ Partial Class NuevoClub
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Trebuchet MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(210, 33)
+        Me.Label1.Location = New System.Drawing.Point(158, 27)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(182, 36)
         Me.Label1.TabIndex = 0
@@ -45,7 +46,8 @@ Partial Class NuevoClub
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(121, 148)
+        Me.Label2.Location = New System.Drawing.Point(91, 120)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(99, 25)
         Me.Label2.TabIndex = 1
@@ -55,7 +57,8 @@ Partial Class NuevoClub
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(116, 244)
+        Me.Label3.Location = New System.Drawing.Point(87, 198)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(104, 25)
         Me.Label3.TabIndex = 2
@@ -63,41 +66,45 @@ Partial Class NuevoClub
         '
         'btnCrear
         '
-        Me.btnCrear.Location = New System.Drawing.Point(216, 369)
+        Me.btnCrear.Location = New System.Drawing.Point(336, 314)
+        Me.btnCrear.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnCrear.Name = "btnCrear"
-        Me.btnCrear.Size = New System.Drawing.Size(75, 23)
+        Me.btnCrear.Size = New System.Drawing.Size(56, 26)
         Me.btnCrear.TabIndex = 3
         Me.btnCrear.Text = "Crear"
         Me.btnCrear.UseVisualStyleBackColor = True
         '
         'btnLimpiar
         '
-        Me.btnLimpiar.Location = New System.Drawing.Point(415, 369)
+        Me.btnLimpiar.Location = New System.Drawing.Point(153, 314)
+        Me.btnLimpiar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnLimpiar.Name = "btnLimpiar"
-        Me.btnLimpiar.Size = New System.Drawing.Size(75, 23)
+        Me.btnLimpiar.Size = New System.Drawing.Size(56, 26)
         Me.btnLimpiar.TabIndex = 4
         Me.btnLimpiar.Text = "Atrás"
         Me.btnLimpiar.UseVisualStyleBackColor = True
         '
         'txtCodigo
         '
-        Me.txtCodigo.Location = New System.Drawing.Point(332, 152)
+        Me.txtCodigo.Location = New System.Drawing.Point(249, 124)
+        Me.txtCodigo.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtCodigo.Name = "txtCodigo"
-        Me.txtCodigo.Size = New System.Drawing.Size(100, 22)
+        Me.txtCodigo.Size = New System.Drawing.Size(76, 20)
         Me.txtCodigo.TabIndex = 5
         '
         'txtNombre
         '
-        Me.txtNombre.Location = New System.Drawing.Point(332, 248)
+        Me.txtNombre.Location = New System.Drawing.Point(249, 202)
+        Me.txtNombre.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtNombre.Name = "txtNombre"
-        Me.txtNombre.Size = New System.Drawing.Size(100, 22)
+        Me.txtNombre.Size = New System.Drawing.Size(76, 20)
         Me.txtNombre.TabIndex = 6
         '
         'NuevoClub
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(761, 464)
+        Me.ClientSize = New System.Drawing.Size(571, 377)
         Me.Controls.Add(Me.txtNombre)
         Me.Controls.Add(Me.txtCodigo)
         Me.Controls.Add(Me.btnLimpiar)
@@ -105,6 +112,7 @@ Partial Class NuevoClub
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "NuevoClub"
         Me.Text = "NuevoClub"
         Me.ResumeLayout(False)

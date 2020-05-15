@@ -32,13 +32,15 @@ Partial Class ModificarCompeticiones
         Me.txtFecha = New System.Windows.Forms.TextBox()
         Me.txtJuego = New System.Windows.Forms.TextBox()
         Me.btnMod = New System.Windows.Forms.Button()
+        Me.btnBorrar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Trebuchet MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(229, 35)
+        Me.Label1.Location = New System.Drawing.Point(172, 28)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(347, 36)
         Me.Label1.TabIndex = 4
@@ -48,7 +50,8 @@ Partial Class ModificarCompeticiones
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(113, 136)
+        Me.Label2.Location = New System.Drawing.Point(85, 110)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(99, 25)
         Me.Label2.TabIndex = 5
@@ -58,7 +61,8 @@ Partial Class ModificarCompeticiones
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(113, 206)
+        Me.Label3.Location = New System.Drawing.Point(85, 167)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(186, 25)
         Me.Label3.TabIndex = 10
@@ -68,7 +72,8 @@ Partial Class ModificarCompeticiones
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(113, 278)
+        Me.Label4.Location = New System.Drawing.Point(85, 226)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(165, 25)
         Me.Label4.TabIndex = 11
@@ -78,7 +83,8 @@ Partial Class ModificarCompeticiones
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(113, 344)
+        Me.Label5.Location = New System.Drawing.Point(85, 280)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(168, 25)
         Me.Label5.TabIndex = 12
@@ -86,46 +92,62 @@ Partial Class ModificarCompeticiones
         '
         'txtCodigo
         '
-        Me.txtCodigo.Location = New System.Drawing.Point(424, 140)
+        Me.txtCodigo.Location = New System.Drawing.Point(318, 114)
+        Me.txtCodigo.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtCodigo.Name = "txtCodigo"
-        Me.txtCodigo.Size = New System.Drawing.Size(100, 22)
+        Me.txtCodigo.Size = New System.Drawing.Size(76, 20)
         Me.txtCodigo.TabIndex = 13
         '
         'txtNombre
         '
-        Me.txtNombre.Location = New System.Drawing.Point(424, 210)
+        Me.txtNombre.Location = New System.Drawing.Point(318, 171)
+        Me.txtNombre.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtNombre.Name = "txtNombre"
-        Me.txtNombre.Size = New System.Drawing.Size(100, 22)
+        Me.txtNombre.Size = New System.Drawing.Size(76, 20)
         Me.txtNombre.TabIndex = 14
         '
         'txtFecha
         '
-        Me.txtFecha.Location = New System.Drawing.Point(424, 282)
+        Me.txtFecha.Location = New System.Drawing.Point(318, 229)
+        Me.txtFecha.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtFecha.Name = "txtFecha"
-        Me.txtFecha.Size = New System.Drawing.Size(100, 22)
+        Me.txtFecha.Size = New System.Drawing.Size(76, 20)
         Me.txtFecha.TabIndex = 15
         '
         'txtJuego
         '
-        Me.txtJuego.Location = New System.Drawing.Point(424, 348)
+        Me.txtJuego.Location = New System.Drawing.Point(318, 283)
+        Me.txtJuego.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtJuego.Name = "txtJuego"
-        Me.txtJuego.Size = New System.Drawing.Size(100, 22)
+        Me.txtJuego.Size = New System.Drawing.Size(76, 20)
         Me.txtJuego.TabIndex = 16
         '
         'btnMod
         '
-        Me.btnMod.Location = New System.Drawing.Point(330, 385)
+        Me.btnMod.Location = New System.Drawing.Point(248, 313)
+        Me.btnMod.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnMod.Name = "btnMod"
-        Me.btnMod.Size = New System.Drawing.Size(75, 23)
+        Me.btnMod.Size = New System.Drawing.Size(68, 29)
         Me.btnMod.TabIndex = 17
         Me.btnMod.Text = "Modificar"
         Me.btnMod.UseVisualStyleBackColor = True
         '
+        'btnBorrar
+        '
+        Me.btnBorrar.Location = New System.Drawing.Point(33, 315)
+        Me.btnBorrar.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnBorrar.Name = "btnBorrar"
+        Me.btnBorrar.Size = New System.Drawing.Size(56, 25)
+        Me.btnBorrar.TabIndex = 18
+        Me.btnBorrar.Text = "Atrás"
+        Me.btnBorrar.UseVisualStyleBackColor = True
+        '
         'ModificarCompeticiones
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(600, 366)
+        Me.Controls.Add(Me.btnBorrar)
         Me.Controls.Add(Me.btnMod)
         Me.Controls.Add(Me.txtJuego)
         Me.Controls.Add(Me.txtFecha)
@@ -136,6 +158,7 @@ Partial Class ModificarCompeticiones
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "ModificarCompeticiones"
         Me.Text = "ModificarCompeticiones"
         Me.ResumeLayout(False)
@@ -153,4 +176,5 @@ Partial Class ModificarCompeticiones
     Friend WithEvents txtFecha As TextBox
     Friend WithEvents txtJuego As TextBox
     Friend WithEvents btnMod As Button
+    Friend WithEvents btnBorrar As Button
 End Class

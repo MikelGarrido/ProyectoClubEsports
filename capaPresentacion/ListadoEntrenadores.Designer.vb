@@ -26,6 +26,7 @@ Partial Class ListadoEntrenadores
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.lblTotal = New System.Windows.Forms.Label()
+        Me.btnBorrar = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -33,7 +34,8 @@ Partial Class ListadoEntrenadores
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Trebuchet MS", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(334, 55)
+        Me.Label1.Location = New System.Drawing.Point(250, 45)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(379, 36)
         Me.Label1.TabIndex = 4
@@ -42,18 +44,20 @@ Partial Class ListadoEntrenadores
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(36, 160)
+        Me.DataGridView1.Location = New System.Drawing.Point(27, 130)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(944, 288)
+        Me.DataGridView1.Size = New System.Drawing.Size(708, 234)
         Me.DataGridView1.TabIndex = 7
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(621, 542)
+        Me.Label2.Location = New System.Drawing.Point(466, 440)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(180, 25)
         Me.Label2.TabIndex = 8
@@ -64,20 +68,33 @@ Partial Class ListadoEntrenadores
         Me.lblTotal.AutoSize = True
         Me.lblTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lblTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTotal.Location = New System.Drawing.Point(893, 542)
+        Me.lblTotal.Location = New System.Drawing.Point(670, 440)
+        Me.lblTotal.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblTotal.Name = "lblTotal"
         Me.lblTotal.Size = New System.Drawing.Size(2, 27)
         Me.lblTotal.TabIndex = 9
         '
+        'btnBorrar
+        '
+        Me.btnBorrar.Location = New System.Drawing.Point(93, 443)
+        Me.btnBorrar.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnBorrar.Name = "btnBorrar"
+        Me.btnBorrar.Size = New System.Drawing.Size(56, 25)
+        Me.btnBorrar.TabIndex = 10
+        Me.btnBorrar.Text = "Atrás"
+        Me.btnBorrar.UseVisualStyleBackColor = True
+        '
         'ListadoEntrenadores
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1023, 648)
+        Me.ClientSize = New System.Drawing.Size(767, 526)
+        Me.Controls.Add(Me.btnBorrar)
         Me.Controls.Add(Me.lblTotal)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "ListadoEntrenadores"
         Me.Text = "ListadoEntrenadores"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -90,4 +107,5 @@ Partial Class ListadoEntrenadores
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Label2 As Label
     Friend WithEvents lblTotal As Label
+    Friend WithEvents btnBorrar As Button
 End Class

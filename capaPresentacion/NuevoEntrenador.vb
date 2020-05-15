@@ -33,8 +33,13 @@ Public Class NuevoEntrenador
 
     Private Sub btnCrear_Click(sender As Object, e As EventArgs) Handles btnCrear.Click
         registroEntrenadores()
+        Me.Close()
     End Sub
     Private Sub NuevoEntrenador_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         txtCodigo.Text = objNegocio.generarCodigoEntrenador
+    End Sub
+
+    Private Sub btnLimpiar_Click(sender As Object, e As EventArgs) Handles btnLimpiar.Click
+        Me.Close()
     End Sub
 End Class
