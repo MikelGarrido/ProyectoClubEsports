@@ -611,6 +611,20 @@ BEGIN
 END
 GO
 
+IF OBJECT_ID('SP_borrarEntrenamiento') IS NOT NULL
+	BEGIN
+		DROP PROC SP_borrarEntrenamiento
+	END
+GO
+
+CREATE PROC SP_borrarEntrenamiento
+@IDJUGADOR INT
+as
+BEGIN
+	DELETE FROM ENTRENA WHERE IDJUGADOR = @IDJUGADOR
+END
+GO
+
 ------------------------------------------------------------------- JUGADORES
 -- LISTAR
 IF OBJECT_ID('SP_listarJugadores') IS NOT NULL
@@ -712,6 +726,20 @@ as
 BEGIN
 	INSERT INTO COMPETIR([IDJUGADOR], [IDCOMPETICION])
 	VALUES(@IDJUGADOR, @IDCOMPETICION)
+END
+GO
+
+IF OBJECT_ID('SP_borrarCompetir') IS NOT NULL
+	BEGIN
+		DROP PROC SP_borrarCompetir
+	END
+GO
+
+CREATE PROC SP_borrarCompetir
+@IDJUGADOR INT
+as
+BEGIN
+	DELETE FROM COMPETIR WHERE IDJUGADOR = @IDJUGADOR
 END
 GO
 
