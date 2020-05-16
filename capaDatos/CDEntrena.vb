@@ -43,4 +43,22 @@ Public Class CDEntrena
             cn.Close()
         End Try
     End Sub
+    Sub borrarEntrenamiento(ByVal obj As CEEntrena)
+        Try
+            cn = objConection.conectar
+            cn.Open()
+            da = New SqlDataAdapter("SP_borrarEntrenamiento", cn)
+            da.SelectCommand.CommandType = CommandType.StoredProcedure
+            With da.SelectCommand.Parameters
+                .Add("@IDJUGADOR", SqlDbType.Int).Value = obj.IDJUGADOR
+            End With
+            da.SelectCommand.ExecuteNonQuery()
+        Catch ex As Exception
+            Throw ex
+        Finally
+            cn.Dispose()
+            da.Dispose()
+            cn.Close()
+        End Try
+    End Sub
 End Class

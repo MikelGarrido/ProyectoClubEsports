@@ -13,5 +13,6 @@ Public Class ListadoEntrenamientos
 
     Private Sub btnBorrar_Click(sender As Object, e As EventArgs) Handles btnBorrar.Click
         Me.Close()
+        MenuInicio.Show()
     End Sub
 End Class
