@@ -39,10 +39,10 @@ Partial Class MenuInicio
         'btnClubes
         '
         Me.btnClubes.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClubes.Location = New System.Drawing.Point(38, 81)
-        Me.btnClubes.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnClubes.Location = New System.Drawing.Point(51, 100)
+        Me.btnClubes.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnClubes.Name = "btnClubes"
-        Me.btnClubes.Size = New System.Drawing.Size(130, 68)
+        Me.btnClubes.Size = New System.Drawing.Size(173, 84)
         Me.btnClubes.TabIndex = 0
         Me.btnClubes.Text = "CLUBES"
         Me.btnClubes.UseVisualStyleBackColor = True
@@ -50,10 +50,10 @@ Partial Class MenuInicio
         'btnAfiliados
         '
         Me.btnAfiliados.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAfiliados.Location = New System.Drawing.Point(235, 81)
-        Me.btnAfiliados.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnAfiliados.Location = New System.Drawing.Point(313, 100)
+        Me.btnAfiliados.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnAfiliados.Name = "btnAfiliados"
-        Me.btnAfiliados.Size = New System.Drawing.Size(167, 68)
+        Me.btnAfiliados.Size = New System.Drawing.Size(223, 84)
         Me.btnAfiliados.TabIndex = 1
         Me.btnAfiliados.Text = "AFILIADOS"
         Me.btnAfiliados.UseVisualStyleBackColor = True
@@ -61,10 +61,10 @@ Partial Class MenuInicio
         'btnPatrocinios
         '
         Me.btnPatrocinios.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnPatrocinios.Location = New System.Drawing.Point(448, 81)
-        Me.btnPatrocinios.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnPatrocinios.Location = New System.Drawing.Point(597, 100)
+        Me.btnPatrocinios.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnPatrocinios.Name = "btnPatrocinios"
-        Me.btnPatrocinios.Size = New System.Drawing.Size(143, 68)
+        Me.btnPatrocinios.Size = New System.Drawing.Size(191, 84)
         Me.btnPatrocinios.TabIndex = 2
         Me.btnPatrocinios.Text = "PATROCINIOS"
         Me.btnPatrocinios.UseVisualStyleBackColor = True
@@ -72,10 +72,10 @@ Partial Class MenuInicio
         'btnProyectos
         '
         Me.btnProyectos.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold)
-        Me.btnProyectos.Location = New System.Drawing.Point(648, 81)
-        Me.btnProyectos.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnProyectos.Location = New System.Drawing.Point(864, 100)
+        Me.btnProyectos.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnProyectos.Name = "btnProyectos"
-        Me.btnProyectos.Size = New System.Drawing.Size(143, 68)
+        Me.btnProyectos.Size = New System.Drawing.Size(191, 84)
         Me.btnProyectos.TabIndex = 3
         Me.btnProyectos.Text = "PROYECTOS"
         Me.btnProyectos.UseVisualStyleBackColor = True
@@ -83,10 +83,10 @@ Partial Class MenuInicio
         'btnTrofeos
         '
         Me.btnTrofeos.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold)
-        Me.btnTrofeos.Location = New System.Drawing.Point(38, 179)
-        Me.btnTrofeos.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnTrofeos.Location = New System.Drawing.Point(51, 220)
+        Me.btnTrofeos.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnTrofeos.Name = "btnTrofeos"
-        Me.btnTrofeos.Size = New System.Drawing.Size(130, 67)
+        Me.btnTrofeos.Size = New System.Drawing.Size(173, 82)
         Me.btnTrofeos.TabIndex = 4
         Me.btnTrofeos.Text = "TROFEOS"
         Me.btnTrofeos.UseVisualStyleBackColor = True
@@ -94,10 +94,10 @@ Partial Class MenuInicio
         'btnEntrenadores
         '
         Me.btnEntrenadores.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold)
-        Me.btnEntrenadores.Location = New System.Drawing.Point(235, 179)
-        Me.btnEntrenadores.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnEntrenadores.Location = New System.Drawing.Point(313, 220)
+        Me.btnEntrenadores.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnEntrenadores.Name = "btnEntrenadores"
-        Me.btnEntrenadores.Size = New System.Drawing.Size(167, 67)
+        Me.btnEntrenadores.Size = New System.Drawing.Size(223, 82)
         Me.btnEntrenadores.TabIndex = 5
         Me.btnEntrenadores.Text = "ENTRENADORES"
         Me.btnEntrenadores.UseVisualStyleBackColor = True
@@ -105,10 +105,10 @@ Partial Class MenuInicio
         'btnEntrenamientos
         '
         Me.btnEntrenamientos.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold)
-        Me.btnEntrenamientos.Location = New System.Drawing.Point(235, 283)
-        Me.btnEntrenamientos.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnEntrenamientos.Location = New System.Drawing.Point(313, 348)
+        Me.btnEntrenamientos.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnEntrenamientos.Name = "btnEntrenamientos"
-        Me.btnEntrenamientos.Size = New System.Drawing.Size(167, 67)
+        Me.btnEntrenamientos.Size = New System.Drawing.Size(223, 82)
         Me.btnEntrenamientos.TabIndex = 6
         Me.btnEntrenamientos.Text = "ENTRENAMIENTOS"
         Me.btnEntrenamientos.UseVisualStyleBackColor = True
@@ -116,10 +116,10 @@ Partial Class MenuInicio
         'btnJugadores
         '
         Me.btnJugadores.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold)
-        Me.btnJugadores.Location = New System.Drawing.Point(448, 179)
-        Me.btnJugadores.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnJugadores.Location = New System.Drawing.Point(597, 220)
+        Me.btnJugadores.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnJugadores.Name = "btnJugadores"
-        Me.btnJugadores.Size = New System.Drawing.Size(143, 67)
+        Me.btnJugadores.Size = New System.Drawing.Size(191, 82)
         Me.btnJugadores.TabIndex = 7
         Me.btnJugadores.Text = "JUGADORES"
         Me.btnJugadores.UseVisualStyleBackColor = True
@@ -127,10 +127,10 @@ Partial Class MenuInicio
         'btnCompetidas
         '
         Me.btnCompetidas.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold)
-        Me.btnCompetidas.Location = New System.Drawing.Point(448, 283)
-        Me.btnCompetidas.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnCompetidas.Location = New System.Drawing.Point(597, 348)
+        Me.btnCompetidas.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnCompetidas.Name = "btnCompetidas"
-        Me.btnCompetidas.Size = New System.Drawing.Size(143, 67)
+        Me.btnCompetidas.Size = New System.Drawing.Size(191, 82)
         Me.btnCompetidas.TabIndex = 8
         Me.btnCompetidas.Text = "COMPETIDORES"
         Me.btnCompetidas.UseVisualStyleBackColor = True
@@ -138,10 +138,10 @@ Partial Class MenuInicio
         'btnCompeticiones
         '
         Me.btnCompeticiones.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold)
-        Me.btnCompeticiones.Location = New System.Drawing.Point(648, 179)
-        Me.btnCompeticiones.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnCompeticiones.Location = New System.Drawing.Point(864, 220)
+        Me.btnCompeticiones.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnCompeticiones.Name = "btnCompeticiones"
-        Me.btnCompeticiones.Size = New System.Drawing.Size(143, 67)
+        Me.btnCompeticiones.Size = New System.Drawing.Size(191, 82)
         Me.btnCompeticiones.TabIndex = 9
         Me.btnCompeticiones.Text = "COMPETICIONES"
         Me.btnCompeticiones.UseVisualStyleBackColor = True
@@ -150,7 +150,8 @@ Partial Class MenuInicio
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Trebuchet MS", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(328, 9)
+        Me.Label1.Location = New System.Drawing.Point(513, 9)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(152, 42)
         Me.Label1.TabIndex = 10
@@ -159,18 +160,19 @@ Partial Class MenuInicio
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(38, 310)
+        Me.Button1.Location = New System.Drawing.Point(51, 382)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(83, 40)
+        Me.Button1.Size = New System.Drawing.Size(111, 49)
         Me.Button1.TabIndex = 11
         Me.Button1.Text = "Salir"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'MenuInicio
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(802, 380)
+        Me.ClientSize = New System.Drawing.Size(1069, 468)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnCompeticiones)
@@ -183,7 +185,7 @@ Partial Class MenuInicio
         Me.Controls.Add(Me.btnPatrocinios)
         Me.Controls.Add(Me.btnAfiliados)
         Me.Controls.Add(Me.btnClubes)
-        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "MenuInicio"
         Me.Text = "MenuInicio"
         Me.ResumeLayout(False)
