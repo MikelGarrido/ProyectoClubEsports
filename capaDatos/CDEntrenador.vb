@@ -65,30 +65,11 @@ Public Class CDEntrenador
             cn.Close()
         End Try
     End Sub
-    Sub borrarEntrenadores(ByVal obj As CEEntrenador)
-        Try
-            cn = objConection.conectar
-            cn.Open()
-            da = New SqlDataAdapter("SP_borrarEntrenador", cn)
-            da.SelectCommand.CommandType = CommandType.StoredProcedure
-            With da.SelectCommand.Parameters
-                .Add("@IDENTRENADOR", SqlDbType.Int).Value = obj.IDENTRENADOR
-            End With
-            da.SelectCommand.ExecuteNonQuery()
-            MsgBox("¡Entrenador eliminado con éxito!", MsgBoxStyle.Information)
-        Catch ex As Exception
-            Throw ex
-        Finally
-            cn.Dispose()
-            da.Dispose()
-            cn.Close()
-        End Try
-    End Sub
     Sub modificarEntrenadores(ByVal obj As CEEntrenador)
         Try
             cn = objConection.conectar
             cn.Open()
-            da = New SqlDataAdapter("SP_modificarEntreandor", cn)
+            da = New SqlDataAdapter("SP_modificarEntrenador", cn)
             da.SelectCommand.CommandType = CommandType.StoredProcedure
             With da.SelectCommand.Parameters
                 .Add("@IDENTRENADOR", SqlDbType.Int).Value = obj.IDENTRENADOR

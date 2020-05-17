@@ -14,9 +14,6 @@ Public Class CNEntrenador
     Sub registroEntrenadores(ByVal obj As CEEntrenador)
         objCapaDatos.registroEntrenadores(obj)
     End Sub
-    Sub borrarEntrenadores(ByVal obj As CEEntrenador)
-        objCapaDatos.borrarEntrenadores(obj)
-    End Sub
     Sub modificarEntrenadores(ByVal obj As CEEntrenador)
         objCapaDatos.modificarEntrenadores(obj)
     End Sub

@@ -171,12 +171,6 @@
     <Compile Include="BorradoClubes.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BorradoEntrenador.Designer.vb">
-      <DependentUpon>BorradoEntrenador.vb</DependentUpon>
-    </Compile>
-    <Compile Include="BorradoEntrenador.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="BorradoJugador.Designer.vb">
       <DependentUpon>BorradoJugador.vb</DependentUpon>
     </Compile>
@@ -428,9 +422,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BorradoClubes.resx">
       <DependentUpon>BorradoClubes.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="BorradoEntrenador.resx">
-      <DependentUpon>BorradoEntrenador.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BorradoJugador.resx">
       <DependentUpon>BorradoJugador.vb</DependentUpon>

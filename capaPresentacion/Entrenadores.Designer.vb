@@ -24,7 +24,6 @@ Partial Class Entrenadores
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
@@ -49,18 +48,9 @@ Partial Class Entrenadores
         Me.Button1.Text = "LISTADO ENTRENADORES"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(533, 137)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(154, 129)
-        Me.Button2.TabIndex = 6
-        Me.Button2.Text = "BORRAR ENTRENADOR"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(74, 299)
+        Me.Button3.Location = New System.Drawing.Point(297, 299)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(154, 129)
         Me.Button3.TabIndex = 7
@@ -69,7 +59,7 @@ Partial Class Entrenadores
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(533, 299)
+        Me.Button4.Location = New System.Drawing.Point(517, 137)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(154, 129)
         Me.Button4.TabIndex = 8
@@ -78,7 +68,7 @@ Partial Class Entrenadores
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(323, 349)
+        Me.Button5.Location = New System.Drawing.Point(628, 349)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(99, 79)
         Me.Button5.TabIndex = 11
@@ -93,7 +83,6 @@ Partial Class Entrenadores
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Entrenadores"
@@ -105,7 +94,6 @@ Partial Class Entrenadores
 
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
